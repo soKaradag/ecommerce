@@ -1,0 +1,81 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.Logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.SearchBar {
+    display: flex;
+}
+
+.SearchBar input {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: none;
+    width: 25vw;
+    padding: 15px;
+}
+
+.SearchBar button {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Items {
+    display: flex;
+    font-size: 25px;
+}
+
+.FirstItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Icon {
+    display: flex;
+    padding-inline: 4px;
+    font-size: 20px;
+}
+
+.IconText {
+    display: flex;
+    padding-inline: 4px;
+    font-size: 20px;
+}
+
+.Items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
