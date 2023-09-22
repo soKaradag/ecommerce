@@ -16,6 +16,7 @@
     height: 18vh;
     width: auto;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .category {

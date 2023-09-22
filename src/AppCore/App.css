@@ -4,7 +4,8 @@
 
 .sticky-navbar {
   position: sticky;
-  background-color: #f2f2f2;
+  background-color: rgba(242, 242, 242, 0.95);
+  backdrop-filter: blur(10px);
   top: 0;
   z-index: 100;
 }

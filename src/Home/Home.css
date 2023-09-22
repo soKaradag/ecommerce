@@ -1,12 +1,16 @@
 .Home {
-    display: flex;
-    justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
-  
+
 .row {
-    display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-
-
-
+.column {
+  box-sizing: border-box;
+}
